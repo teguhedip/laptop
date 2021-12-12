@@ -31,15 +31,24 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Laptop::index');
 
-$routes->group('lp', function ($routes) {
+
+// $routes->get('/', 'Laptop::index');
+// $routes->group('/', function ($routes) {
+$routes->get('/', 'Etalase::index');
+//$routes->get('detail/(:segment)', 'Etalase::detail/$1');
+$routes->get('detail/(:segment)', 'Etalase::detail/$1');
+// });
+
+// $routes->get('/admin', 'Laptop::index');
+
+$routes->group('admin', function ($routes) {
     // $routes->get('news', 'NewsAdmin::index');
     // $routes->get('news/(:segment)/preview', 'NewsAdmin::preview/$1');
     // $routes->add('news/new', 'NewsAdmin::create');
     // $routes->add('news/(:segment)/edit', 'NewsAdmin::edit/$1');
     // $routes->get('news/(:segment)/delete', 'NewsAdmin::delete/$1');
-    $routes->add('laptop', 'Laptop::index');
+    $routes->add('', 'Laptop::index');
     $routes->add('new', 'Laptop::create');
     $routes->get('delete/(:segment)', 'Laptop::delete/$1');
     $routes->add('edit/(:segment)', 'Laptop::edit/$1');

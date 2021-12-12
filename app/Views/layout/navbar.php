@@ -7,15 +7,15 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('/') ?>">Laptop</a>
+                    <a class="nav-link" href="<?= base_url('admin') ?>">Admin</a>
                 </li>
             </ul>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="<?= base_url('lp/new') ?>" class="btn btn-primary mr-3">New Post</a>
+                    <a href="<?= base_url('admin/new') ?>" class="btn btn-primary mr-3">New Post</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?= base_url('lp/setting') ?>">Setting</a>
+                    <a class="nav-link" href="<?= base_url('admin/setting') ?>">Setting</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?= base_url('auth/logout') ?>">Logout</a>

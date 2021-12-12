@@ -20,7 +20,7 @@
         </tr>
         <tr>
             <th>
-                <a href="<?= base_url('admin') ?>" class="btn btn-primary btn-sm" target="">Kembali</a>
+                <a href="<?= base_url('/') ?>" class="btn btn-primary btn-sm" target="">Kembali</a>
             </th>
             <th></th>
         </tr>

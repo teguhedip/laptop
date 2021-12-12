@@ -26,9 +26,9 @@
                     <strong><?= $lp['status'] ?></strong><br>
                 </td>
                 <td>
-                    <a href="<?= base_url('lp/preview/' . $lp['id']) ?>" class="btn btn-sm btn-outline-secondary" target="">Preview</a>
-                    <a href="<?= base_url('lp/edit/' . $lp['id']) ?>" class="btn btn-sm btn-outline-secondary">Edit</a>
-                    <a href="#" data-href="<?= base_url('lp/delete/' . $lp['id']) ?>" onclick="confirmToDelete(this)" class="btn btn-sm btn-outline-danger">Delete</a>
+                    <a href="<?= base_url('admin/preview/' . $lp['id']) ?>" class="btn btn-sm btn-outline-secondary" target="">Preview</a>
+                    <a href="<?= base_url('admin/edit/' . $lp['id']) ?>" class="btn btn-sm btn-outline-secondary">Edit</a>
+                    <a href="#" data-href="<?= base_url('admin/delete/' . $lp['id']) ?>" onclick="confirmToDelete(this)" class="btn btn-sm btn-outline-danger">Delete</a>
                 </td>
             </tr>
         <?php endforeach ?>

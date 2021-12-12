@@ -52,7 +52,7 @@ class Laptop extends BaseController
                 "type" => $this->request->getPost('type'),
                 "status" => $this->request->getPost('status')
             ]);
-            return redirect('lp/laptop');
+            return redirect('admin');
         }
 
         // tampilkan form create
@@ -79,7 +79,7 @@ class Laptop extends BaseController
                 "type" => $this->request->getPost('type'),
                 "status" => $this->request->getPost('status')
             ]);
-            return redirect('lp/laptop');
+            return redirect('admin');
         }
 
         // tampilkan form edit
@@ -90,6 +90,6 @@ class Laptop extends BaseController
     {
         $lp = new LaptopModel();
         $lp->delete($id);
-        return redirect('lp/laptop');
+        return redirect('admin');
     }
 }
