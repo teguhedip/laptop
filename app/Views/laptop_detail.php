@@ -12,7 +12,7 @@
     <tbody>
         <tr>
             <th scope="row">Tipe >> </th>
-            <td><?= $lp['tipe'] ?></td>
+            <td><?= $lp['type'] ?></td>
         </tr>
         <tr>
             <th scope="row">Status >> </th>

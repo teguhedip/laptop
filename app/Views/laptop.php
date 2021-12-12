@@ -20,7 +20,7 @@
                     <strong><?= $lp['brand'] ?></strong><br>
                 </td>
                 <td>
-                    <strong><?= $lp['tipe'] ?></strong><br>
+                    <strong><?= $lp['type'] ?></strong><br>
                 </td>
                 <td>
                     <strong><?= $lp['status'] ?></strong><br>

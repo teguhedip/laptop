@@ -10,5 +10,5 @@ class LaptopModel extends Model
     protected $primaryKey = 'id';
 
     protected $useAutoIncrement = true;
-    protected $allowedFields = ['brand', 'tipe', 'status'];
+    protected $allowedFields = ['brand', 'type', 'status'];
 }

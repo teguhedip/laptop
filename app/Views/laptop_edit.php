@@ -9,13 +9,13 @@
         <input type="text" name="brand" class="form-control" placeholder="Isikan nama brand ..." value="<?= $lp['brand'] ?>" required>
     </div>
     <div class="form-group">
-        <input type="text" name="tipe" class="form-control" placeholder="Tipe laptop kamu.." value="<?= $lp['tipe'] ?>"></input>
+        <input type="text" name="type" class="form-control" placeholder="Tipe laptop kamu.." value="<?= $lp['type'] ?>"></input>
     </div>
 
     <select class="form-select" name="status">
         <option <?php echo $lp['status'] == 'education' ? "selected" : ""; ?> value="education">Education</option>
-        <option <?php echo $lp['status'] == 'work' ? "selected" : ""; ?> value="education">Work</option>
-        <option <?php echo $lp['status'] == 'gammer' ? "selected" : ""; ?> value="education">Gammer</option>
+        <option <?php echo $lp['status'] == 'work' ? "selected" : ""; ?> value="work">Work</option>
+        <option <?php echo $lp['status'] == 'gammer' ? "selected" : ""; ?> value="gammer">Gammer</option>
     </select>
 
 

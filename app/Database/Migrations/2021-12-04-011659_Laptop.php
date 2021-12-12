@@ -20,7 +20,7 @@ class Laptop extends Migration
                 'type'           => 'VARCHAR',
                 'constraint'     => '255'
             ],
-            'tipe'      => [
+            'type'      => [
                 'type'           => 'VARCHAR',
                 'constraint'     => 100,
             ],
@@ -28,7 +28,68 @@ class Laptop extends Migration
                 'type'           => 'ENUM',
                 'constraint'     => ['work', 'education', 'gammer'],
                 'default'        => 'work',
+            ],
+            'sistem_operasi'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'processor'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'display'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'memory'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'storage'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'graphics'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'baterai'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 255,
+            ],
+            'konektivitas'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'audio'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'weight'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'dimension'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'keyboard'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'ports'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'warna'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
+            ],
+            'preloaded_software'      => [
+                'type'           => 'VARCHAR',
+                'constraint'     => 100,
             ]
+
         ]);
 
         // Membuat primary key

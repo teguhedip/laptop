@@ -49,7 +49,7 @@ class Laptop extends BaseController
             $news = new LaptopModel();
             $news->insert([
                 "brand" => $this->request->getPost('brand'),
-                "tipe" => $this->request->getPost('tipe'),
+                "type" => $this->request->getPost('type'),
                 "status" => $this->request->getPost('status')
             ]);
             return redirect('lp/laptop');
@@ -76,7 +76,7 @@ class Laptop extends BaseController
         if ($isDataValid) {
             $lp->update($id, [
                 "brand" => $this->request->getPost('brand'),
-                "tipe" => $this->request->getPost('tipe'),
+                "type" => $this->request->getPost('type'),
                 "status" => $this->request->getPost('status')
             ]);
             return redirect('lp/laptop');

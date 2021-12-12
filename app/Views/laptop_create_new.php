@@ -8,7 +8,7 @@
         <input type="text" name="brand" class="form-control" placeholder="Isikan nama brand ..." required>
     </div>
     <div class="form-group">
-        <input type="text" name="tipe" class="form-control" placeholder="Tipe laptop kamu.."></input>
+        <input type="text" name="type" class="form-control" placeholder="Tipe laptop kamu.."></input>
     </div>
 
     <select class="form-select" name="status">
